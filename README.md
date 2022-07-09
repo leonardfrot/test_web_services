@@ -10,9 +10,9 @@ Certain test ne fonctionne pas en localhost<br/>
 Dans le cas où vous n'avez pas encore de compte, ajouter un autotoken.
 
 
-## Fonction
+## Fonctions
 ### GET
-Tester les requêtes GET, notamment les requêtes AJAX depuis un autre fontend
+Tester les requêtes GET, notamment les requêtes AJAX depuis un autre fontend.
 ### POST
-Tester les requêtes POST, dès qu'il reçoit une requête POST, il le log dans un fichier app.log<br/>
-Il a été utilisé pour tester le Web Hook Gilab et le Reporter Urlwatch
+Tester les requêtes POST, dès qu'il reçoit une requête POST, il le log dans un fichier app.log.<br/>
+Il a été utilisé pour tester le Web Hook Gilab et le Reporter Urlwatch.
