@@ -18,7 +18,7 @@ app.use(express.json({limit: '100mb'}));
 app.use(express.urlencoded({limit: '100mb'}));
 
 
-app.post('/api/stuff', (req, res, next) => {
+app.post('/api/test_post', (req, res, next) => {
     console.log('------------------------------------')
     console.log(req.body);
     logger.info(req.body)
@@ -27,7 +27,7 @@ app.post('/api/stuff', (req, res, next) => {
     });
   });
 
-app.get('/test', (req,res) => {
+app.get('/api/test_get', (req,res) => {
     res.status(200).json(test)
 })
 
